@@ -9,7 +9,6 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 export class Movie {
 
     @PrimaryGeneratedColumn()
-    @ApiProperty({required: false})
     id: number
 
     @Column({length: 200})
