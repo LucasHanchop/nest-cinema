@@ -1,7 +1,7 @@
-import { Inject, Injectable } from '@nestjs/common';
-import { encryptionFc } from 'src/auth/encryption';
-import { User } from 'src/db/entity/user.entity';
-import { DeleteResult, Repository } from 'typeorm';
+import { Inject, Injectable } from '@nestjs/common'
+import { encryptionFc } from 'encryption'
+import { User } from 'src/db/entity/user.entity'
+import { DeleteResult, Repository } from 'typeorm'
 
 
 @Injectable()
