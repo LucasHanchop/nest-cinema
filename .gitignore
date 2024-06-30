@@ -36,8 +36,6 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 # dotenv environment variable files
-auth.constants.ts
-encryption.ts
 .env
 .env.development.local
 .env.test.local
